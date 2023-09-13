@@ -1,3 +1,5 @@
+import Rodape from "@/components/Rodape";
+
 export default function cemPontos(){
     return(
         <>
@@ -5,6 +7,7 @@ export default function cemPontos(){
                 <video width={1280} height={720} controls>
                     <source src={`/videos/100_pontos.mp4`} type={`video/mp4`} />
                 </video>
+                <Rodape />
             </div>
         </>
     )

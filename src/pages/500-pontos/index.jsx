@@ -1,3 +1,5 @@
+import Rodape from "@/components/Rodape";
+
 export default function quinhentosPontos(){
     return(
         <>
@@ -5,6 +7,7 @@ export default function quinhentosPontos(){
                 <video width={1280} height={720} controls>
                     <source src={`/videos/500_pontos.mp4`} type={`video/mp4`} />
                 </video>
+                <Rodape />
             </div>
         </>
     )
